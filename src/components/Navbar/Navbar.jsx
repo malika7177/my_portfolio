@@ -9,14 +9,14 @@ const Navbar = () => {
 
   const themeIcon = theme === "light" ? sun : moon;
   return (
-    <div>
+    <div className="navbar">
       <div className="logo">
         <span>M</span>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
             <a href="#about">About</a>

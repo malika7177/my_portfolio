@@ -24,6 +24,15 @@ body {
     gap: 60px;
 }
 
+ul li {
+    list-style-type: none;  
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--text-black);
+}
+
 h1,
 h2,
 h3,
