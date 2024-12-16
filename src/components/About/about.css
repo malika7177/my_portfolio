@@ -50,3 +50,28 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 50px;
+
+        p {
+            max-width: 350px;
+            font-size: 16px;
+        }
+    }
+
+    .skills {
+        padding-left: 100px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
