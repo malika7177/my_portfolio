@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <span>M</span>
+        <a href="#">M</a>
       </div>
       <nav>
         <ul>

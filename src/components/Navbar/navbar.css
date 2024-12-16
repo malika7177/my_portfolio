@@ -6,17 +6,18 @@
 }
 
 .logo {
-    font-size: 33px;
-    background-color: var(--text-red);
-    padding: 15px;
-    color: #fff;
-    border-radius: 50%;
+    font-size: 50px;
+    padding-left: 15px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
 }
 
+.logo a {
+    color: var(--text-red);
+}
 
 nav ul {
+    padding-right: 35px;
     display: flex;
     gap: 65px;
 }
@@ -29,7 +30,7 @@ nav ul li {
 nav ul li a {
     font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--text-black);
+    color: var(--text-color);
     transition: all .5s;
 }
 

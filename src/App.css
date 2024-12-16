@@ -28,7 +28,7 @@ ul li {
     list-style-type: none;  
 }
 
-ul li a {
+a {
     text-decoration: none;
     color: var(--text-black);
 }
