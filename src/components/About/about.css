@@ -1,0 +1,52 @@
+.about {
+    width: 100%;
+    padding: 20px 200px;
+
+    .about-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 50px;
+
+        p {
+            width: 580px;
+            font-size: 18px;
+            line-height: 33px;
+        }
+    }
+
+    h1 {
+        font-size: 36px;
+        color: var(--text-red);
+    }
+
+}
+
+
+
+.skills {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+        padding-right: 50px;
+    }
+
+    .about-skills {
+        width: 600px;
+        ul li {
+            list-style: circle inside;
+            line-height: 30px;
+        }
+
+        h2 {
+            padding-top: 10px;
+            font-size: 24px;
+            color: var(--text-pink);
+            padding-bottom: 5px;
+        }
+    }
+}
