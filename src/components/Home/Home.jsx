@@ -33,8 +33,8 @@ const Home = () => {
           </a>
         </span>
         <a href={CV} download>
-          <button class="button-57" role="button">
-            <span class="text">Resume</span>
+          <button className="button-57" role="button">
+            <span className="text">Resume</span>
             <span>Click to Download</span>
           </button>
         </a>
