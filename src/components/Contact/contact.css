@@ -1,0 +1,140 @@
+.contact {
+    padding: 50px 250px;
+    text-align: center;
+}
+
+.contact h1 {
+    padding-bottom: 5px;
+}
+
+.contact p {
+    text-align: center;
+}
+
+:focus {
+    outline: none;
+}
+
+.col-3 {
+    margin: 40px 25px 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 400px;
+    position: relative;
+}
+
+form {
+    padding-left: 150px;
+}
+
+input {
+    font-size: 18px;
+    color: #333;
+    width: 100%;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+
+.effect-8~.focus-border:before,
+.effect-8~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--text-red);
+    transition: 0.3s;
+}
+
+.effect-8~.focus-border:after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.effect-8~.focus-border i:before,
+.effect-8~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 0;
+    background-color: var(--text-red);
+    transition: 0.4s;
+}
+
+.effect-8~.focus-border i:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.effect-8:focus~.focus-border:before,
+.effect-8:focus~.focus-border:after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.effect-8:focus~.focus-border i:before,
+.effect-8:focus~.focus-border i:after {
+    height: 100%;
+    transition: 0.4s;
+}
+
+button{ 
+    padding: 15px 32px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 830px;
+    height: 200px;
+    padding: 10px 20px;
+    display: block;
+}
+
+textarea::placeholder {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1400px) {
+    form {
+        padding-left: 100px;
+    }
+    .contact {
+        padding: 50px 170px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .col-3 {
+        width: 41%;
+    }
+    textarea {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        padding-left: 20%;
+    }
+    .col-3 {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+}

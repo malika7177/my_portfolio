@@ -32,7 +32,7 @@ function Projects() {
           type: "bullets",
         }}
         autoplay={{
-          delay: 4000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         modules={[Pagination, Navigation, Autoplay]}
